@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/kuruteiru/repos/utb/utb-app-frameworks/students-ef/students-ef.csproj": {}
+  },
+  "projects": {
+    "/home/kuruteiru/repos/utb/utb-app-frameworks/students-ef/students-ef.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kuruteiru/repos/utb/utb-app-frameworks/students-ef/students-ef.csproj",
+        "projectName": "students-ef",
+        "projectPath": "/home/kuruteiru/repos/utb/utb-app-frameworks/students-ef/students-ef.csproj",
+        "packagesPath": "/home/kuruteiru/.nuget/packages/",
+        "outputPath": "/home/kuruteiru/repos/utb/utb-app-frameworks/students-ef/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kuruteiru/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
